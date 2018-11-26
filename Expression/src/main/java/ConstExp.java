@@ -12,7 +12,7 @@ public class ConstExp implements Expression {
         return new ConstExp(0);
     }
 
-    public String toString() {
+    public String toString(Notation nt) {
         return Double.toString(this.value);
     }
 }
